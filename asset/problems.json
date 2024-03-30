@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Reverse a String",
+    "problemStatement": "Write a function that reverses a string. The input string is given as an array of characters.",
+    "timeComplexity": "O(n)",
+    "level": "Easy",
+    "input": "An array of characters representing the string.",
+    "output": "The same array with characters reversed.",
+    "example-1": {
+      "input": ["h", "e", "l", "l", "o"],
+      "output": ["o", "l", "l", "e", "h"]
+    },
+    "example-2": {
+      "input": ["H", "a", "n", "n", "a", "h"],
+      "output": ["h", "a", "n", "n", "a", "H"]
+    }
+  },
+  {
+    "title": "Two Sum",
+    "problemStatement": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+    "timeComplexity": "O(n)",
+    "level": "Easy",
+    "input": "An array of integers and an integer target.",
+    "output": "Indices of the two numbers such that they add up to target.",
+    "example-1": {
+      "input": "Nums - [2,7,11,15], Target - 9",
+      "output": [0, 1]
+    },
+    "example-2": {
+      "input": "Nums - [3,2,4], Target - 6",
+      "output": [1, 2]
+    }
+  },
+  {
+    "title": "Valid Parentheses",
+    "problemStatement": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+    "timeComplexity": "O(n)",
+    "level": "Easy",
+    "input": "A string containing parentheses, brackets, and curly braces.",
+    "output": "True if the string is valid, otherwise false.",
+    "example-1": {
+      "input": "()",
+      "output": true
+    },
+    "example-2": {
+      "input": "()[]{}",
+      "output": true
+    }
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "problemStatement": "Merge two sorted linked lists and return it as a new sorted list.",
+    "timeComplexity": "O(n)",
+    "level": "Easy",
+    "input": "Two sorted linked lists.",
+    "output": "A new sorted linked list merged from the input lists.",
+    "example-1": {
+      "input": "List 1- [1,2,4]\n            List 2- [1,3,4]",
+      "output": "[1, 1, 2, 3, 4, 4]"
+    },
+    "example-2": {
+      "input": "List 1- []\n            List 2- []",
+      "output": []
+    }
+  },
+  {
+    "title": "Reverse Integer",
+    "problemStatement": "Given a signed 32-bit integer x, return x with its digits reversed.",
+    "timeComplexity": "O(log(x))",
+    "level": "Easy",
+    "input": "A signed 32-bit integer.",
+    "output": "The integer with its digits reversed.",
+    "example-1": {
+      "input": 123,
+      "output": 321
+    },
+    "example-2": {
+      "input": -123,
+      "output": -321
+    }
+  },
+  {
+    "title": "Palindrome Number",
+    "problemStatement": "Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.",
+    "timeComplexity": "O(log10(n))",
+    "level": "Easy",
+    "input": "An integer.",
+    "output": "True if the integer is a palindrome, otherwise false.",
+    "example-1": {
+      "input": 121,
+      "output": true
+    },
+    "example-2": {
+      "input": -121,
+      "output": false
+    }
+  },
+  {
+    "title": "Longest Common Prefix",
+    "problemStatement": "Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string.",
+    "timeComplexity": "O(n*m)",
+    "level": "Easy",
+    "input": "An array of strings.",
+    "output": "The longest common prefix string.",
+    "example-1": {
+      "input": ["flower", "flow", "flight"],
+      "output": "fl"
+    },
+    "example-2": {
+      "input": ["dog", "racecar", "car"],
+      "output": ""
+    }
+  },
+  {
+    "title": "Valid Palindrome",
+    "problemStatement": "Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.",
+    "timeComplexity": "O(n)",
+    "level": "Easy",
+    "input": "A string.",
+    "output": "True if the string is a palindrome, otherwise false.",
+    "example-1": {
+      "input": "A man, a plan, a canal: Panama",
+      "output": true
+    },
+    "example-2": {
+      "input": "race a car",
+      "output": false
+    }
+  },
+  {
+    "title": "Roman to Integer",
+    "problemStatement": "Given a roman numeral, convert it to an integer.",
+    "timeComplexity": "O(n)",
+    "level": "Easy",
+    "input": "A string representing a valid Roman numeral.",
+    "output": "The integer representation of the input Roman numeral.",
+    "example-1": {
+      "input": "III",
+      "output": 3
+    },
+    "example-2": {
+      "input": "LVIII",
+      "output": 58
+    }
+  },
+  {
+    "title": "Integer to Roman",
+    "problemStatement": "Given an integer, convert it to a roman numeral.",
+    "timeComplexity": "O(1)",
+    "level": "Medium",
+    "input": "An integer between 1 and 3999.",
+    "output": "The roman numeral representation of the input integer.",
+    "example-1": {
+      "input": 3,
+      "output": "III"
+    },
+    "example-2": {
+      "input": 58,
+      "output": "LVIII"
+    }
+  }
+]
