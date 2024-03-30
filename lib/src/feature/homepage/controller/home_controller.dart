@@ -11,7 +11,7 @@ class ProblemController extends GetxController {
   @override
   void onInit() {
     super.onInit();
-    Future.delayed(const Duration(seconds: 2), (){
+    Future.delayed(const Duration(seconds: 1), (){
      return loadProblems();
     });
   }

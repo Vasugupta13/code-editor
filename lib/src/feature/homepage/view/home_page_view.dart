@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
           Expanded(
             child: Obx(()=>
              controller.loading?
-                 const Center(child: CircularProgressIndicator(),):
+                 const Center(child: CircularProgressIndicator(color: AppColors.kPrimaryOrangeColor,),):
               ListView.builder(
                   padding: EdgeInsets.zero,
                   itemCount: controller.problemList.length,

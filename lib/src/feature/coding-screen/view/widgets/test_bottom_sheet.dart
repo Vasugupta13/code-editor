@@ -44,7 +44,7 @@ class TestBottomModalSheet extends StatelessWidget {
                       Obx(() =>  testBottomSheetController.loadingTestCase1 ?
                       Transform.scale(
                           scale: 0.6,
-                          child: const CircularProgressIndicator()): const Row(children: [Icon(Icons.check,color: Colors.green,),Text(' Passed')],)
+                          child: const CircularProgressIndicator(color: AppColors.kPrimaryOrangeColor,)): const Row(children: [Icon(Icons.check,color: Colors.green,),Text(' Passed')],)
                       )
                     ],
                   ),
@@ -58,7 +58,7 @@ class TestBottomModalSheet extends StatelessWidget {
                       Obx(() =>  testBottomSheetController.loadingTestCase2?
                       Transform.scale(
                           scale: 0.6,
-                          child: const CircularProgressIndicator()): const Row(children: [Icon(Icons.check,color: Colors.green,),Text(' Passed')],)
+                          child: const CircularProgressIndicator(color: AppColors.kPrimaryOrangeColor,)): const Row(children: [Icon(Icons.check,color: Colors.green,),Text(' Passed')],)
                       )
                     ],
                   ),
